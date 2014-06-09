@@ -53,10 +53,10 @@
 </servlet>
 <servlet-mapping>
 <servlet-name>GetTest</servlet-name>
-<url-pattern>/g</url-pattern>
+<url-pattern>/g</url-pattern> -->
 <!-- http://localhost:8888/mvc/g라고 url패턴이 실행되면,com.naver.action
 패키지의GetTest 서블릿 클래스 파일이 실행 -->
-  <!--</servlet-mapping>
+  <!--</servlet-mapping> -->
 <!-- 세번째 post 방식 처리 서블릿 -->
   <!--<servlet>
 <servlet-name>PostTest</servlet-name>
@@ -65,7 +65,7 @@
 <servlet-mapping>
 <servlet-name>PostTest</servlet-name>
 <url-pattern>/p</url-pattern>
-</servlet-mapping>
+</servlet-mapping> -->
 <!-- 프로퍼티 파일로 MVC 처리 -->
   <!--<servlet>
 <servlet-name>MtoryFrontController</servlet-name>
@@ -73,7 +73,7 @@
 </servlet>
 <servlet-mapping>
 <servlet-name>MtoryFrontController</servlet-name>
-<url-pattern>*.do</url-pattern>
+<url-pattern>*.do</url-pattern> -->
 <!-- http://localhost:888/mvc/*.do라고 웹주소창에 입력하면
 com.mtory.action패키지의 MtoryFrontController 클래스가 실행된다.
 이클래스는 HttpServlet로 부터 상속받은 서블릿 클래스 파일이고. get,post에 상관없이
