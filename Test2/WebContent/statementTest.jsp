@@ -16,11 +16,11 @@ try{
 	
 	int result = stmt.executeUpdate(sql);
 	if(result!= 0){
-			out.println("<h3>렠코드가 등록되었습니다.<h3>");
+			out.println("<h3>레코드가 등록되었습니다.<h3>");
 	
 	}
 	}catch(Exception e){
-		out.println("<h3>렠코드가 등록에 실패하였습니다.<h3>");
+		out.println("<h3>레코드가 등록에 실패하였습니다.<h3>");
 		e.printStackTrace();
 	}
 %>
